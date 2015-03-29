@@ -1,0 +1,7 @@
+La clasificación de perfiles de rieles estará indexada por un número entero,
+según la tabla siguiente:
+
+0: ninguna
+1: catenaria 25 kV CA
+2: tercer riel 600 VCC
+3: tercer riel 850 VCC

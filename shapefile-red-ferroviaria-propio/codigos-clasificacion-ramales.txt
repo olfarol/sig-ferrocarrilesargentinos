@@ -1,0 +1,9 @@
+La clasificación de ramales estará indexada por un número entero, según la
+tabla siguiente (ver SETOP 7/81):
+
+1: RMP, red metropolitana de pasajeros
+2: RTR 1, red troncal especial, según anexo 13.6
+3: RTR 2, red troncal especial, según anexo 13.7
+4: RF 1, red primaria interregional y secundaria, según anexo 13.8
+5: RF 2, red primaria interregional y secundaria, según anexo 13.8
+6: RTD, red de tráfico a la demanda y ramales industriales y particulares
