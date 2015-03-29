@@ -7,13 +7,13 @@ necesarias para armar el SIG de nuestra red ferroviaria nacional.
 Este SIG propone una sustancial mejora al que actualmente puede encontrarse en
 http://goo.gl/LAqybs.
 
-En esta propuesta voy a corregir los errores georreferenciales del shapefile, 
-separando en capas los perímetros de estaciones, playas y talleres de la traza
-en sí. Añadiré detalles de cada vía, incluyendo las de playas, empalmes e
-intercambios, y agregaré una capa que muestre información sobre cada aparato
-de vía, obra de arte y demás elementos de vía no contemplados en el actual.
+Propongo corregir y mejorar la información geográfica actual, añadiendo datos
+necesarios tales como codificaciones de ramales, enrieladura, electrificación,
+señalización, estado del ramal, etc. Los datos esenciales se brindan en las
+tablas de los shapefiles, y la información adicional se obtendrá mediante
+consultas SQL.
 
-En la base de datos se agregarán datos como códigos de ramales y estaciones
-(según EFEA 1964 y Ferrocarriles Argentinos 1985), añadiendo nombres antiguos
-y nombre actual de estaciones, fechas de inauguraciones, fechas de clausuras,
-etcétera.
+Actualmente se ofrece un borrador de prueba de concepto con dos ramales del
+Ferrocarril Mitre, GM-7 y GM-18.
+
+Esta no es la versión de prueba de concepto definitiva.
