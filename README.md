@@ -16,4 +16,5 @@ consultas SQL.
 Actualmente se ofrece un borrador de prueba de concepto con dos ramales del
 Ferrocarril Mitre, GM-7 y GM-18.
 
-Esta no es la versión de prueba de concepto definitiva.
+Esta no es la versión de prueba de concepto definitiva. Sírvase leer la wiki
+del proyecto, en especial ![la lista de tareas pendientes](https://github.com/arielsbecker/sig-ferrocarrilesargentinos/wiki/Lista-de-tareas-pendientes).
