@@ -4,10 +4,10 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>-6706915.82115476671606302</xmin>
-            <ymin>-4256501.48916417174041271</ymin>
-            <xmax>-6336792.26748106349259615</xmax>
-            <ymax>-4028505.38010117085650563</ymax>
+            <xmin>-6658503.89542721677571535</xmin>
+            <ymin>-4244657.53544661402702332</ymin>
+            <xmax>-6288380.34175351355224848</xmax>
+            <ymax>-4016661.42638361267745495</ymax>
         </extent>
         <projections>1</projections>
         <destinationsrs>
@@ -29,9 +29,9 @@
                 <legendlayerfile isInOverview="0" layerid="estaciones20150328214645530" visible="1"/>
             </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="1" open="true" checked="Qt::Unchecked" name="Talleres" showFeatureCount="0">
+        <legendlayer drawingOrder="1" open="true" checked="Qt::Checked" name="Talleres" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="talleres20150331140723801" visible="0"/>
+                <legendlayerfile isInOverview="0" layerid="talleres20150331140723801" visible="1"/>
             </filegroup>
         </legendlayer>
         <legendlayer drawingOrder="2" open="true" checked="Qt::Unchecked" name="temp estaciones puntos empalme" showFeatureCount="0">
@@ -140,7 +140,7 @@
             <excludeAttributesWFS/>
             <attributeactions/>
         </maplayer>
-        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
+        <maplayer minimumScale="0" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
             <id>Estaciones_y_puntos_de_empalme20150331140529481</id>
             <datasource>../../../Documents/Trabajos/Ariel/github/sig-ferrocarrilesargentinos/kml/temp.kml|layername=Estaciones y puntos de empalme</datasource>
             <title></title>
@@ -206,9 +206,9 @@
                 <property key="labeling/displayAll" value="false"/>
                 <property key="labeling/dist" value="0"/>
                 <property key="labeling/distInMapUnits" value="false"/>
-                <property key="labeling/enabled" value="false"/>
-                <property key="labeling/fieldName" value=""/>
-                <property key="labeling/fontBold" value="false"/>
+                <property key="labeling/enabled" value="true"/>
+                <property key="labeling/fieldName" value="Name"/>
+                <property key="labeling/fontBold" value="true"/>
                 <property key="labeling/fontCapitals" value="0"/>
                 <property key="labeling/fontFamily" value="Ubuntu"/>
                 <property key="labeling/fontItalic" value="false"/>
@@ -220,7 +220,7 @@
                 <property key="labeling/fontSizeInMapUnits" value="false"/>
                 <property key="labeling/fontStrikeout" value="false"/>
                 <property key="labeling/fontUnderline" value="false"/>
-                <property key="labeling/fontWeight" value="50"/>
+                <property key="labeling/fontWeight" value="63"/>
                 <property key="labeling/fontWordSpacing" value="0"/>
                 <property key="labeling/formatNumbers" value="false"/>
                 <property key="labeling/isExpression" value="false"/>
@@ -401,7 +401,7 @@
                     <symbol alpha="1" type="line" name="0">
                         <layer pass="0" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="square"/>
-                            <prop k="color" v="140,18,49,255"/>
+                            <prop k="color" v="77,9,27,255"/>
                             <prop k="customdash" v="5;2"/>
                             <prop k="customdash_unit" v="MM"/>
                             <prop k="joinstyle" v="bevel"/>
@@ -409,7 +409,7 @@
                             <prop k="offset_unit" v="MM"/>
                             <prop k="penstyle" v="solid"/>
                             <prop k="use_custom_dash" v="0"/>
-                            <prop k="width" v="0.26"/>
+                            <prop k="width" v="0.5"/>
                             <prop k="width_unit" v="MM"/>
                         </layer>
                     </symbol>
@@ -440,7 +440,7 @@
                 <property key="labeling/distInMapUnits" value="false"/>
                 <property key="labeling/enabled" value="false"/>
                 <property key="labeling/fieldName" value=""/>
-                <property key="labeling/fontBold" value="false"/>
+                <property key="labeling/fontBold" value="true"/>
                 <property key="labeling/fontCapitals" value="0"/>
                 <property key="labeling/fontFamily" value="Ubuntu"/>
                 <property key="labeling/fontItalic" value="false"/>
@@ -452,7 +452,7 @@
                 <property key="labeling/fontSizeInMapUnits" value="false"/>
                 <property key="labeling/fontStrikeout" value="false"/>
                 <property key="labeling/fontUnderline" value="false"/>
-                <property key="labeling/fontWeight" value="50"/>
+                <property key="labeling/fontWeight" value="63"/>
                 <property key="labeling/fontWordSpacing" value="0"/>
                 <property key="labeling/formatNumbers" value="false"/>
                 <property key="labeling/isExpression" value="false"/>
@@ -1005,7 +1005,7 @@
             <excludeAttributesWFS/>
             <attributeactions/>
         </maplayer>
-        <maplayer minimumScale="0" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
+        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
             <id>talleres20150331140723801</id>
             <datasource>../../../Documents/Trabajos/Ariel/github/sig-ferrocarrilesargentinos/shapefile-red-ferroviaria-propio/talleres.shp</datasource>
             <title></title>
@@ -1192,7 +1192,7 @@
             </customproperties>
             <blendMode>0</blendMode>
             <featureBlendMode>0</featureBlendMode>
-            <layerTransparency>0</layerTransparency>
+            <layerTransparency>33</layerTransparency>
             <displayfield>Name</displayfield>
             <label>0</label>
             <labelattributes>
