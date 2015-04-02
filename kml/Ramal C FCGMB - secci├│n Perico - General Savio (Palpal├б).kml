@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>Ramal C FCGMB - sección Perico - General Savio (Palpalá)</name>
+		<description><![CDATA[Sección recuperada por la gestión del Ministro Florencio Randazzo.<br><br>Ver noticia en http://www.mininterior.gov.ar/prensa/prensa.php?i=2300]]></description>
+		<Folder>
+			<name>Untitled layer</name>
+			<Placemark>
+				<styleUrl>#icon-22</styleUrl>
+				<name>Estación General Savio (Palpalá)</name>
+				<ExtendedData>
+				</ExtendedData>
+				<description><![CDATA[Ramal C del FCGMB.<br><br>Progresiva: 1138,6 km.]]></description>
+				<Point>
+					<coordinates>-65.204369,-24.249977,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#line-33CC00-3</styleUrl>
+				<name>Ramal C, sección Perico - General Savio</name>
+				<ExtendedData>
+				</ExtendedData>
+				<description><![CDATA[Distancia total: 17,9 km.]]></description>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>-65.204212,-24.250535,0.0 -65.197084,-24.264767,0.0 -65.196354,-24.265824,0.0 -65.195796,-24.266489,0.0 -65.195067,-24.267076,0.0 -65.194252,-24.267584,0.0 -65.185969,-24.272161,0.0 -65.182064,-24.274313,0.0 -65.180991,-24.275056,0.0 -65.180218,-24.275682,0.0 -65.179489,-24.276582000000005,0.0 -65.177901,-24.279946,0.0 -65.177128,-24.280964,0.0 -65.176141,-24.281668,0.0 -65.175498,-24.282137,0.0 -65.165756,-24.289178,0.0 -65.164855,-24.289922,0.0 -65.164211,-24.290508,0.0 -65.163825,-24.291291000000005,0.0 -65.16331,-24.292581,0.0 -65.157512,-24.305352,0.0 -65.157105,-24.306095,0.0 -65.15674,-24.306662,0.0 -65.156289,-24.307288,0.0 -65.155817,-24.307757,0.0 -65.153629,-24.309811,0.0 -65.143222,-24.319275,0.0 -65.139488,-24.322697,0.0 -65.138673,-24.323459000000003,0.0 -65.138072,-24.32432,0.0 -65.137922,-24.324691,0.0 -65.137686,-24.325297,0.0 -65.137557,-24.325806,0.0 -65.137559,-24.326573,0.0 -65.137612,-24.327033000000004,0.0 -65.137757,-24.327673,0.0 -65.13805,-24.328367,0.0 -65.138394,-24.329032,0.0 -65.13865100000001,-24.329423,0.0 -65.138994,-24.329833,0.0 -65.139509,-24.330322,0.0 -65.13981,-24.330576,0.0 -65.139982,-24.330948,0.0 -65.140282,-24.331476000000002,0.0 -65.140561,-24.33218,0.0 -65.140711,-24.332629,0.0 -65.140861,-24.333275,0.0 -65.140861,-24.333998,0.0 -65.140711,-24.334702000000004,0.0 -65.140432,-24.335288000000002,0.0 -65.14011,-24.335816,0.0 -65.139617,-24.336364,0.0 -65.125133,-24.35259,0.0 -65.124768,-24.353059,0.0 -65.124532,-24.353509,0.0 -65.124305,-24.353968,0.0 -65.124198,-24.354476,0.0 -65.124101,-24.354994,0.0 -65.124069,-24.355512,0.0 -65.124069,-24.356167,0.0 -65.124337,-24.3608,0.0 -65.12453,-24.363849,0.0 -65.12453,-24.364172,0.0 -65.124498,-24.364641,0.0 -65.124412,-24.3651,0.0 -65.124316,-24.365481,0.0 -65.124123,-24.365872,0.0 -65.123886,-24.366332,0.0 -65.123554,-24.366684,0.0 -65.123219,-24.367035,0.0 -65.113821,-24.376779,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-149</styleUrl>
+				<name>Puente ferroviario sobre el río Perico</name>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-65.12382,-24.363009,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-24</styleUrl>
+				<name>Estación Perico</name>
+				<ExtendedData>
+				</ExtendedData>
+				<description><![CDATA[Ramales C y C15 del FCGMB.<br>Progresiva: 1120,8 km.]]></description>
+				<Point>
+					<coordinates>-65.11391400000001,-24.37689,0.0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Style id='icon-149'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/149-water.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id='icon-22'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+		</Style>
+		<Style id='icon-24'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/24-blue.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+		</Style>
+		<Style id='line-33CC00-3'>
+			<LineStyle>
+				<color>ff00CC33</color>
+				<width>3</width>
+			</LineStyle>
+		</Style>
+	</Document>
+</kml>

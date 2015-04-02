@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>Ramal Tolosa a Ensenada (FCBAyE) </name>
+		<description><![CDATA[]]></description>
+		<Folder>
+			<name>Untitled layer</name>
+			<Placemark>
+				<styleUrl>#line-0000FF-5</styleUrl>
+				<name>Line 1</name>
+				<ExtendedData>
+				</ExtendedData>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>-57.97623,-34.88493,0.0 -57.971810000000005,-34.88754,0.0 -57.968590000000006,-34.88933,0.0 -57.96789,-34.88951,0.0 -57.96708,-34.88942,0.0 -57.96647000000001,-34.8891,0.0 -57.96232,-34.8853,0.0 -57.96058,-34.88307,0.0 -57.95893,-34.88079,0.0 -57.952090000000005,-34.8729,0.0 -57.93215,-34.85013,0.0 -57.93142,-34.84961,0.0 -57.9303,-34.84924,0.0 -57.9294,-34.84917,0.0 -57.92831699999999,-34.849223,0.0 -57.927684,-34.849422,0.0 -57.92701999999999,-34.84975,0.0 -57.92541,-34.850930000000005,0.0 -57.909772,-34.863794,0.0 -57.909161000000005,-34.864252,0.0 -57.908930000000005,-34.864441,0.0 -57.908587,-34.864661,0.0 -57.90844200000001,-34.86470500000001,0.0 -57.908195,-34.864745,0.0 -57.90795,-34.864745,0.0 -57.907299,-34.864745,0.0 -57.907096,-34.864754,0.0 -57.906623,-34.86471,0.0 -57.906374,-34.864692,0.0 -57.906149,-34.86465,0.0 -57.90529800000001,-34.864331,0.0 -57.904424,-34.863636,0.0 -57.90379599999999,-34.863134,0.0 -57.903378,-34.862839,0.0 -57.902885999999995,-34.862421,0.0 -57.902865000000006,-34.862421,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-22</styleUrl>
+				<name>Antigua estaciòn Ensenada (1872)</name>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-57.926027,-34.850434,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-22</styleUrl>
+				<name>Estaciòn Ensenada</name>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-57.903056,-34.86235,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#line-0000FF-5</styleUrl>
+				<name>Acceso a Rio Santiago</name>
+				<ExtendedData>
+				</ExtendedData>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>-57.902822,-34.862359,0.0 -57.90204200000001,-34.861778,0.0 -57.90128599999999,-34.861232,0.0 -57.900546,-34.86066,0.0 -57.899199,-34.85952,0.0 -57.89818,-34.858758,0.0 -57.897552000000005,-34.858406,0.0 -57.897263,-34.858323,0.0 -57.896738,-34.85823,0.0 -57.89638899999999,-34.85816,0.0 -57.89609900000001,-34.858045,0.0 -57.89582,-34.857825,0.0 -57.89537500000001,-34.857416,0.0 -57.895064,-34.85702,0.0 -57.894232,-34.855483,0.0 -57.893674,-34.854440000000004,0.0 -57.89303600000001,-34.853208,0.0 -57.8925,-34.852336,0.0 -57.892236,-34.851869,0.0 -57.89214,-34.851724,0.0 -57.892081,-34.851596,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-22</styleUrl>
+				<name>Puente Giratorio</name>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-57.897584,-34.858274,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-22</styleUrl>
+				<name>Est. Rìo Santiago (demolida)</name>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-57.892070000000004,-34.851486,0.0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Style id='icon-22'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+		</Style>
+		<Style id='line-0000FF-5'>
+			<LineStyle>
+				<color>ffFF0000</color>
+				<width>5</width>
+			</LineStyle>
+		</Style>
+	</Document>
+</kml>

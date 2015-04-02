@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>Ramal 56 del Ferrocarril General Bartolomé Mitre</name>
+		<description><![CDATA[]]></description>
+		<Folder>
+			<name>Untitled layer</name>
+			<Placemark>
+				<styleUrl>#icon-22</styleUrl>
+				<name>Empalme Maschwitz</name>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-58.721430000000005,-34.389581,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#line-CC0000-4</styleUrl>
+				<name>Ramal 56 FCGBM</name>
+				<ExtendedData>
+				</ExtendedData>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>-58.68746300000001,-34.35124,0.0 -58.690939,-34.354083,0.0 -58.693964,-34.35636,0.0 -58.694801000000005,-34.357015,0.0 -58.695488,-34.35767,0.0 -58.696582,-34.358972,0.0 -58.697088,-34.359787,0.0 -58.713688000000005,-34.387115,0.0 -58.714115,-34.387832,0.0 -58.71471600000001,-34.388469,0.0 -58.71548800000001,-34.389089,0.0 -58.716143,-34.389434,0.0 -58.716883,-34.389744,0.0 -58.71772000000001,-34.389966,0.0 -58.718374,-34.390081,0.0 -58.71921100000001,-34.390081,0.0 -58.72011199999999,-34.389948,0.0 -58.720863,-34.389753,0.0 -58.721486,-34.389585,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-149</styleUrl>
+				<name>Arroyo Garín</name>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-58.704435999999994,-34.371415,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-115</styleUrl>
+				<name>Estación Dique Luján</name>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-58.687216,-34.351187,0.0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Style id='icon-115'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/115-rail.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id='icon-149'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/149-water.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id='icon-22'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+		</Style>
+		<Style id='line-CC0000-4'>
+			<LineStyle>
+				<color>ff0000CC</color>
+				<width>4</width>
+			</LineStyle>
+		</Style>
+	</Document>
+</kml>
