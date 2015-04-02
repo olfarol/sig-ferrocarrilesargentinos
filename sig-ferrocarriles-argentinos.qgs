@@ -4,10 +4,10 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>-6511065.43348291423171759</xmin>
-            <ymin>-4188240.14548773784190416</ymin>
-            <xmax>-6423721.60065822582691908</xmax>
-            <ymax>-4134436.34446772933006287</ymax>
+            <xmin>-6481688.7337562320753932</xmin>
+            <ymin>-4182120.20499803824350238</ymin>
+            <xmax>-6427934.03982384782284498</xmax>
+            <ymax>-4150188.77639403706416488</ymax>
         </extent>
         <projections>1</projections>
         <destinationsrs>
@@ -378,12 +378,18 @@
             <provider encoding="System">ogr</provider>
             <previewExpression>COALESCE( "Name", '&lt;NULL>' )</previewExpression>
             <vectorjoins/>
-            <renderer-v2 symbollevels="0" type="singleSymbol">
+            <renderer-v2 symbollevels="0" type="RuleRenderer">
+                <rules>
+                    <rule filter=" &quot;statustemp&quot; = 'Precaucionado'" symbol="0" label="Ramal precaucionado"/>
+                    <rule filter=" &quot;statustemp&quot;  = 'Levantado'" symbol="1" label="Ramal levantado"/>
+                    <rule filter=" &quot;statustemp&quot; = 'Operativo'" symbol="2" label="Ramal operativo"/>
+                    <rule filter=" &quot;statustemp&quot;  = 'Abandonado'" symbol="3" label="Ramal abandonado"/>
+                </rules>
                 <symbols>
                     <symbol alpha="1" type="line" name="0">
                         <layer pass="0" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="flat"/>
-                            <prop k="color" v="16,16,16,255"/>
+                            <prop k="color" v="255,255,0,255"/>
                             <prop k="customdash" v="5;2"/>
                             <prop k="customdash_unit" v="MM"/>
                             <prop k="joinstyle" v="round"/>
@@ -408,9 +414,91 @@
                             <prop k="width_unit" v="MM"/>
                         </layer>
                     </symbol>
+                    <symbol alpha="1" type="line" name="1">
+                        <layer pass="0" class="SimpleLine" locked="0">
+                            <prop k="capstyle" v="flat"/>
+                            <prop k="color" v="159,0,0,255"/>
+                            <prop k="customdash" v="5;2"/>
+                            <prop k="customdash_unit" v="MM"/>
+                            <prop k="joinstyle" v="round"/>
+                            <prop k="offset" v="0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="penstyle" v="solid"/>
+                            <prop k="use_custom_dash" v="0"/>
+                            <prop k="width" v="1"/>
+                            <prop k="width_unit" v="MM"/>
+                        </layer>
+                        <layer pass="2" class="SimpleLine" locked="1">
+                            <prop k="capstyle" v="flat"/>
+                            <prop k="color" v="255,255,255,255"/>
+                            <prop k="customdash" v="2;2"/>
+                            <prop k="customdash_unit" v="MM"/>
+                            <prop k="joinstyle" v="round"/>
+                            <prop k="offset" v="0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="penstyle" v="dot"/>
+                            <prop k="use_custom_dash" v="1"/>
+                            <prop k="width" v="1"/>
+                            <prop k="width_unit" v="MM"/>
+                        </layer>
+                    </symbol>
+                    <symbol alpha="1" type="line" name="2">
+                        <layer pass="0" class="SimpleLine" locked="0">
+                            <prop k="capstyle" v="flat"/>
+                            <prop k="color" v="0,128,0,255"/>
+                            <prop k="customdash" v="5;2"/>
+                            <prop k="customdash_unit" v="MM"/>
+                            <prop k="joinstyle" v="round"/>
+                            <prop k="offset" v="0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="penstyle" v="solid"/>
+                            <prop k="use_custom_dash" v="0"/>
+                            <prop k="width" v="1"/>
+                            <prop k="width_unit" v="MM"/>
+                        </layer>
+                        <layer pass="2" class="SimpleLine" locked="1">
+                            <prop k="capstyle" v="flat"/>
+                            <prop k="color" v="255,255,255,255"/>
+                            <prop k="customdash" v="2;2"/>
+                            <prop k="customdash_unit" v="MM"/>
+                            <prop k="joinstyle" v="round"/>
+                            <prop k="offset" v="0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="penstyle" v="dot"/>
+                            <prop k="use_custom_dash" v="1"/>
+                            <prop k="width" v="1"/>
+                            <prop k="width_unit" v="MM"/>
+                        </layer>
+                    </symbol>
+                    <symbol alpha="1" type="line" name="3">
+                        <layer pass="0" class="SimpleLine" locked="0">
+                            <prop k="capstyle" v="flat"/>
+                            <prop k="color" v="128,128,128,255"/>
+                            <prop k="customdash" v="5;2"/>
+                            <prop k="customdash_unit" v="MM"/>
+                            <prop k="joinstyle" v="round"/>
+                            <prop k="offset" v="0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="penstyle" v="solid"/>
+                            <prop k="use_custom_dash" v="0"/>
+                            <prop k="width" v="1"/>
+                            <prop k="width_unit" v="MM"/>
+                        </layer>
+                        <layer pass="2" class="SimpleLine" locked="1">
+                            <prop k="capstyle" v="flat"/>
+                            <prop k="color" v="195,195,195,255"/>
+                            <prop k="customdash" v="2;2"/>
+                            <prop k="customdash_unit" v="MM"/>
+                            <prop k="joinstyle" v="round"/>
+                            <prop k="offset" v="0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="penstyle" v="dot"/>
+                            <prop k="use_custom_dash" v="1"/>
+                            <prop k="width" v="1"/>
+                            <prop k="width_unit" v="MM"/>
+                        </layer>
+                    </symbol>
                 </symbols>
-                <rotation field=""/>
-                <sizescale field="" scalemethod="area"/>
             </renderer-v2>
             <customproperties>
                 <property key="labeling" value="pal"/>
@@ -434,7 +522,7 @@
                 <property key="labeling/dist" value="0"/>
                 <property key="labeling/distInMapUnits" value="false"/>
                 <property key="labeling/enabled" value="true"/>
-                <property key="labeling/fieldName" value=" &quot;nom_ffcc&quot;  || ', ramal '  ||  &quot;ramal_1985&quot; "/>
+                <property key="labeling/fieldName" value=" &quot;nom_ffcc&quot;  || ', ramal '  ||  &quot;ramal_1985&quot; || ', trocha: ' ||  &quot;trocha&quot; "/>
                 <property key="labeling/fontBold" value="true"/>
                 <property key="labeling/fontCapitals" value="0"/>
                 <property key="labeling/fontFamily" value="Ubuntu"/>
@@ -567,6 +655,7 @@
                 <edittype labelontop="0" editable="1" type="0" name="revisar"/>
                 <edittype labelontop="0" editable="1" type="0" name="rieles"/>
                 <edittype labelontop="0" editable="1" type="0" name="statustemp"/>
+                <edittype labelontop="0" editable="1" type="0" name="trocha"/>
             </edittypes>
             <editform>../../../Documents/Trabajos/Ariel/github/sig-ferrocarrilesargentinos</editform>
             <editforminit></editforminit>
