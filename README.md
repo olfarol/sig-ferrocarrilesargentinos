@@ -17,5 +17,5 @@ Actualmente se ofrece un borrador de la prueba de concepto propuesta, con
 algunos ramales fuera de servicio.
 
 Esta no es la versión de prueba de concepto definitiva. Sírvase leer la wiki
-del proyecto, en especial ![la lista de tareas pendientes](https://github.com/arielsbecker/sig-ferrocarrilesargentinos/wiki/Lista-de-tareas-pendientes) y
-![representación cartográfica y metodología a utilizar](https://github.com/arielsbecker/sig-ferrocarrilesargentinos/wiki/Normativa-de-representaci%C3%B3n-cartogr%C3%A1fica-y-metodolog%C3%ADa-a-seguir).
+del proyecto, en especial [la lista de tareas pendientes](https://github.com/arielsbecker/sig-ferrocarrilesargentinos/wiki/Lista-de-tareas-pendientes) y
+[representación cartográfica y metodología a utilizar](https://github.com/arielsbecker/sig-ferrocarrilesargentinos/wiki/Normativa-de-representaci%C3%B3n-cartogr%C3%A1fica-y-metodolog%C3%ADa-a-seguir).
